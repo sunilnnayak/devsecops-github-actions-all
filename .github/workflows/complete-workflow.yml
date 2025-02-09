@@ -21,6 +21,7 @@ jobs:
   security:
     runs-on: ubuntu-latest
     #needs: build
+    #commented to make some chages
     name: Run the SCA scan on the source code
     steps:
       - uses: actions/checkout@master
